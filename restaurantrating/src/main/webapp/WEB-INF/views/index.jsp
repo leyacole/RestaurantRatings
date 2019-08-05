@@ -25,8 +25,8 @@
 			 	<td>${i.name }</td>
 			 	<td>
 				  <a href="/restaurant/voteup?id=${ items.id }"
-     				class="btn btn-light btn-sm">Vote Up</a> <a
-					href="/restaurant/votedown?id=${ i.id }"
+     				class="btn btn-light btn-sm">Vote Up</a> 
+				<a href="/restaurant/votedown?id=${ i.id }"
 					class="btn btn-light btn-sm">Vote Down</a>
 				</td>
 			  </tr>
